@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anagram\Anagram.cs" />
+    <Compile Include="anagram\describe_Anagram.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\describe_Bob.cs" />
     <Compile Include="etl\describe_ETL.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="anagram\README.md" />
     <None Include="bob\README.md" />
     <None Include="etl\README.md" />
     <None Include="leap\README.md" />
