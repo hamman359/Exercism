@@ -14,7 +14,6 @@ public class AnagramTest
         Assert.That(detector.Match(words), Is.EqualTo(results));
     }
 
-    [Ignore]
     [Test]
     public void Detect_simple_anagram()
     {
@@ -24,7 +23,6 @@ public class AnagramTest
         Assert.That(detector.Match(words), Is.EqualTo(results));
     }
 
-    [Ignore]
     [Test]
     public void Detect_multiple_anagrams()
     {
